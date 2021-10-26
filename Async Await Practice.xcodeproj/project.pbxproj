@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3B2C9F0E2727B116006FB7D9 /* CharacterServiceResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B2C9F0D2727B116006FB7D9 /* CharacterServiceResult.swift */; };
 		3BE073822721155B002703E8 /* Async_Await_PracticeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BE073812721155B002703E8 /* Async_Await_PracticeApp.swift */; };
 		3BE073842721155B002703E8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BE073832721155B002703E8 /* ContentView.swift */; };
 		3BE073862721155E002703E8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3BE073852721155E002703E8 /* Assets.xcassets */; };
@@ -14,6 +15,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3B2C9F0D2727B116006FB7D9 /* CharacterServiceResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterServiceResult.swift; sourceTree = "<group>"; };
 		3BE0737E2721155B002703E8 /* Async Await Practice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Async Await Practice.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3BE073812721155B002703E8 /* Async_Await_PracticeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Async_Await_PracticeApp.swift; sourceTree = "<group>"; };
 		3BE073832721155B002703E8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -32,6 +34,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3B2C9F0C2727B0FC006FB7D9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3B2C9F0D2727B116006FB7D9 /* CharacterServiceResult.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		3BE073752721155B002703E8 = {
 			isa = PBXGroup;
 			children = (
@@ -51,6 +61,7 @@
 		3BE073802721155B002703E8 /* Async Await Practice */ = {
 			isa = PBXGroup;
 			children = (
+				3B2C9F0C2727B0FC006FB7D9 /* Model */,
 				3BE073812721155B002703E8 /* Async_Await_PracticeApp.swift */,
 				3BE073832721155B002703E8 /* ContentView.swift */,
 				3BE073852721155E002703E8 /* Assets.xcassets */,
@@ -138,6 +149,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3BE073842721155B002703E8 /* ContentView.swift in Sources */,
+				3B2C9F0E2727B116006FB7D9 /* CharacterServiceResult.swift in Sources */,
 				3BE073822721155B002703E8 /* Async_Await_PracticeApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
