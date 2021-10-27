@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3B06E217272914E2008F38D8 /* CharacterViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B06E216272914E2008F38D8 /* CharacterViewModel.swift */; };
 		3B2C9F0E2727B116006FB7D9 /* CharacterServiceResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B2C9F0D2727B116006FB7D9 /* CharacterServiceResult.swift */; };
 		3B2C9F112727B29C006FB7D9 /* CharacterService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B2C9F102727B29C006FB7D9 /* CharacterService.swift */; };
 		3BE073822721155B002703E8 /* Async_Await_PracticeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BE073812721155B002703E8 /* Async_Await_PracticeApp.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3B06E216272914E2008F38D8 /* CharacterViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterViewModel.swift; sourceTree = "<group>"; };
 		3B2C9F0D2727B116006FB7D9 /* CharacterServiceResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterServiceResult.swift; sourceTree = "<group>"; };
 		3B2C9F102727B29C006FB7D9 /* CharacterService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterService.swift; sourceTree = "<group>"; };
 		3BE0737E2721155B002703E8 /* Async Await Practice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Async Await Practice.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -36,6 +38,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3B06E215272914D0008F38D8 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				3B06E216272914E2008F38D8 /* CharacterViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
 		3B2C9F0C2727B0FC006FB7D9 /* Model */ = {
 			isa = PBXGroup;
 			children = (
@@ -71,6 +81,7 @@
 		3BE073802721155B002703E8 /* Async Await Practice */ = {
 			isa = PBXGroup;
 			children = (
+				3B06E215272914D0008F38D8 /* ViewModel */,
 				3B2C9F0F2727B288006FB7D9 /* Service */,
 				3B2C9F0C2727B0FC006FB7D9 /* Model */,
 				3BE073812721155B002703E8 /* Async_Await_PracticeApp.swift */,
@@ -160,6 +171,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3BE073842721155B002703E8 /* ContentView.swift in Sources */,
+				3B06E217272914E2008F38D8 /* CharacterViewModel.swift in Sources */,
 				3B2C9F0E2727B116006FB7D9 /* CharacterServiceResult.swift in Sources */,
 				3BE073822721155B002703E8 /* Async_Await_PracticeApp.swift in Sources */,
 				3B2C9F112727B29C006FB7D9 /* CharacterService.swift in Sources */,
