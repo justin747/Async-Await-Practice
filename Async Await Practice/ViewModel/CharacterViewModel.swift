@@ -7,6 +7,7 @@
 
 import Foundation
 
+@MainActor
 class CharacterViewModel: ObservableObject {
     
     enum State {
@@ -16,12 +17,24 @@ class CharacterViewModel: ObservableObject {
         case failed(error: Error)
     }
     
+    @Published private(set) var state: State = .na
+    
     private let service: CharacterService
     
     init(service: CharacterService) {
         self.service = service
     }
     
-    func getCharacters() {}
+    func getCharacters() async {
+        
+        self.state = .loading
+        
+        do {
+            let characters = try await service.fetchCharacters()
+            self.state = .success(data: characters)
+        } catch {
+            self.state = .failed(error: error)
+        }
+    }
     
 }
